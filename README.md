@@ -1,9 +1,9 @@
 # MASS N06: survey-response prediction with wording embeddings
 
 This repository contains team MASS's N06 submission for the NeurIPS 2026
-SimulacraBench competition, the four-page technical report, and the files needed
-to inspect and rebuild the released archives. N06 combines a small survey
-transformer with frozen embeddings of the published question and answer wording.
+SimulacraBench competition and the files needed to inspect and rebuild the
+released archives. N06 combines a small survey transformer with frozen
+embeddings of the published question and answer wording.
 
 The repository contains no respondent microdata or hidden survey answers.
 
@@ -22,8 +22,6 @@ The repository contains no respondent microdata or hidden survey answers.
   directory and verifies all hashes.
 - `tools/build_semantic_vectors.py` regenerates the wording-vector asset from
   the pinned MiniLM model and public SimulacraBench schemas.
-- `report/` contains the LaTeX source, style file, and PDF of the technical
-  report.
 
 ```text
 simulacrabench-mass-n06/
@@ -33,10 +31,6 @@ simulacrabench-mass-n06/
 ├── artifacts/
 │   ├── N06_r01.zip
 │   └── N06_final.zip
-├── report/
-│   ├── MASS_N06_report.pdf
-│   ├── MASS_N06_report.tex
-│   └── neurips_2026.sty
 ├── runs/
 │   ├── N06_r01/
 │   │   ├── manifest.json
