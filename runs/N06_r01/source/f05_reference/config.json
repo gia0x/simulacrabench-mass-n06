@@ -1,0 +1,20 @@
+{
+  "count_prior_strength": 30.0,
+  "description": "Matched F01 ablation: remove all chained imputation, retaining the original seven zero-chained mixture candidates and unchanged direct forest, counts and holdout parameters.",
+  "experiment_id": "F02",
+  "family": "direct_probabilistic_forest",
+  "forest_prior_share": 0.02,
+  "marginal_pseudocount": 0.5,
+  "max_depth": 8,
+  "min_fitting_rows": 128,
+  "min_forest_rows": 64,
+  "min_samples_leaf": 20,
+  "min_validation_rows": 32,
+  "n_estimators": 48,
+  "reference_run": "2026-10-22_F01_r01",
+  "scoring_floor": 0.001,
+  "seed": 777,
+  "shared_work_budget_seconds": 660.0,
+  "validation_cap": 512,
+  "validation_fraction": 0.2
+}

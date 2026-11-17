@@ -1,0 +1,21 @@
+{
+  "archive_file": "N06_r01.zip",
+  "submission_sha256": "5e83cb5a5dd6e4cf5a481e1013e0a112960340e7608bf90cc0b7586b0a4a38f2",
+  "payload_sha256": {
+    "README.md": "1481e7b2b6fed3f9b0b1d86d8ffc1c39f53d53c47363543b11949e8ccabc3343",
+    "config.json": "c662e7013f2e54071191418d8f99c39ab368d3d73647ef43503e8b419864cd98",
+    "f05_reference/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "f05_reference/candidate.py": "719a40352c3b00d266d3ab5425c22cd2f582e0380eefd7240540b04521933dd6",
+    "f05_reference/challenger_config.json": "737bd070aaa2a805dbf62637728fcb4192ab0436d7798b84485df4e7429c996c",
+    "f05_reference/config.json": "976a5a6138901346842e180b796b8fb88d8e9d77168eb74c8c23c2e6e3697a73",
+    "f05_reference/direct_forest_main.py": "fc12d3a5078a5f23bc109f3b3eb6e1bd01763c7e30a3751ad6d34cf22bf2c3a5",
+    "f05_reference/forest_main.py": "6a4b41929c7abb47dcf9eb27ff20ba51de2986edf5ef13b1c520fc19e82fc856",
+    "f05_reference/main.py": "1b3428ae66fb4a8d500d9d240e5ceb5023299dafadb314c1c35f83065a76d076",
+    "main.py": "5fbf1772ede7e15f108aeaee1edeff254c7f977a320ef6cd7df28598b47c7ad5",
+    "neural_candidate.py": "e3084ffee1cfec96887888f08bd7bbf10b904f5194b078ff4a7d84362779c538",
+    "requirements.txt": "2734b3b1e21812fb09f5921e826342642566e09a9af195a175d9d2ccf247fa04",
+    "semantic_candidate.py": "a5f6162506480f06837ae6306a82036963b5b975a642e218f5711583cd1b0b99",
+    "semantic_provenance.json": "7ac2dfba8001732390e553ac5105cfaff6929f3d79ae807a84f81cd46af4f085",
+    "semantic_vectors.npz": "a6a973cc91ae131f5e6fb2a7673cbde8c91f3fd094b9ca019fc60a255ca0dff0"
+  }
+}

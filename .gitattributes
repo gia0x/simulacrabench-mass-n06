@@ -1,0 +1,6 @@
+# Frozen run files must retain their original bytes on every platform because
+# the manifests verify exact SHA-256 digests.
+runs/**/source/** -text
+runs/**/manifest.json -text
+artifacts/** -text
+

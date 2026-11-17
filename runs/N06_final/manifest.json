@@ -1,0 +1,12 @@
+{
+  "archive_file": "N06_final.zip",
+  "submission_sha256": "8417f959e53b2407330fefcb068e79ebf55cb9768493e8caae1aefb7ad67d3d8",
+  "payload_sha256": {
+    "main.py": "5456bd5d61b392c09cbc8fecdefa2b14641e2395ee3b26f5e7e9609190632611",
+    "model.py": "8a5e29f5d1eb5cccd5b7e87bb8d4f671a5570de674a3ce02a77eb91cb8b63238",
+    "requirements.txt": "922558a2260ef97fa09b5ec681ee663acd1e7c4d8804d4dd59d10996a515b33e",
+    "semantic_vectors.npz": "a6a973cc91ae131f5e6fb2a7673cbde8c91f3fd094b9ca019fc60a255ca0dff0"
+  },
+  "development_reference": "N06_r01",
+  "development_reference_sha256": "5e83cb5a5dd6e4cf5a481e1013e0a112960340e7608bf90cc0b7586b0a4a38f2"
+}

@@ -1,0 +1,27 @@
+{
+  "candidate_work_budget_seconds": 150,
+  "experiment_id": "F05",
+  "family": "statistical_challenger",
+  "hypothesis": "A joint regularized multinomial model of all GIVEN fields plus prespecified context interactions can add useful probability information to F02.",
+  "logistic_c": 1.0,
+  "logistic_max_iter": 80,
+  "marginal_pseudocount": 0.5,
+  "max_selection_fit_rows": 3072,
+  "min_fitting_rows": 128,
+  "min_validation_rows": 32,
+  "overall_work_budget_seconds": 825,
+  "prior_share": 0.02,
+  "provider": "logistic_candidate",
+  "reference_run": "F02_r01",
+  "scoring_floor": 0.001,
+  "seed": 1777,
+  "validation_cap": 256,
+  "validation_fraction": 0.2,
+  "weights": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ]
+}
