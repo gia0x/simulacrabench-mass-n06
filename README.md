@@ -25,6 +25,41 @@ The repository contains no respondent microdata or hidden survey answers.
 - `report/` contains the LaTeX source, style file, and PDF of the technical
   report.
 
+```text
+simulacrabench-mass-n06/
+├── README.md
+├── LICENSE
+├── THIRD_PARTY_NOTICES.md
+├── artifacts/
+│   ├── N06_r01.zip
+│   └── N06_final.zip
+├── report/
+│   ├── MASS_N06_report.pdf
+│   ├── MASS_N06_report.tex
+│   └── neurips_2026.sty
+├── runs/
+│   ├── N06_r01/
+│   │   ├── manifest.json
+│   │   └── source/
+│   │       ├── main.py
+│   │       ├── neural_candidate.py
+│   │       ├── semantic_candidate.py
+│   │       ├── semantic_vectors.npz
+│   │       ├── semantic_provenance.json
+│   │       ├── requirements.txt
+│   │       └── f05_reference/
+│   └── N06_final/
+│       ├── manifest.json
+│       └── source/
+│           ├── main.py
+│           ├── model.py
+│           ├── requirements.txt
+│           └── semantic_vectors.npz
+└── tools/
+    ├── build_semantic_vectors.py
+    └── rebuild_n06.py
+```
+
 N06_r01 and N06_final are deliberately kept separate. N06_r01 is the frozen
 development artifact discussed in the report. N06_final is a smaller cleaned
 implementation prepared for public release; it is not represented as a
