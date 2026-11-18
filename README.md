@@ -5,6 +5,9 @@ SimulacraBench competition and the files needed to inspect and rebuild the
 released archives. N06 combines a small survey transformer with frozen
 embeddings of the published question and answer wording.
 
+The final/test submission is `N06_final.zip` (Codabench submission 1055649).
+The earlier `N06_r01.zip` development submission is also preserved.
+
 The repository contains no respondent microdata or hidden survey answers.
 
 ## Repository contents
@@ -13,10 +16,10 @@ The repository contains no respondent microdata or hidden survey answers.
   development archive.
 - `runs/N06_r01/manifest.json` records the hash of every archive member and the
   complete N06_r01 ZIP.
-- `runs/N06_final/source/` is the cleaned public implementation supplied for the
-  code release.
-- `runs/N06_final/manifest.json` is the manifest supplied with that cleaned
-  implementation.
+- `runs/N06_final/source/` is the exact source tree stored in the final/test
+  archive, `N06_final.zip` (Codabench submission 1055649).
+- `runs/N06_final/manifest.json` records the hash of every archive member and the
+  complete N06_final ZIP.
 - `artifacts/` preserves both original ZIP archives.
 - `tools/rebuild_n06.py` deterministically rebuilds either archive from its run
   directory and verifies all hashes.
@@ -54,10 +57,10 @@ simulacrabench-mass-n06/
     └── rebuild_n06.py
 ```
 
-N06_r01 and N06_final are deliberately kept separate. N06_r01 is the frozen
-development artifact discussed in the report. N06_final is a smaller cleaned
-implementation prepared for public release; it is not represented as a
-byte-identical copy of N06_r01.
+`N06_r01.zip` is the frozen development submission. `N06_final.zip` is the
+final/test submission used for Codabench submission 1055649 and is the
+implementation described in the technical report. Both archives are preserved
+separately with their exact source files and manifests.
 
 ## Frozen archive hashes
 
@@ -72,9 +75,16 @@ byte-identical copy of N06_r01.
 Run these commands from the repository root. Each output path must not already
 exist because the rebuild utility refuses to overwrite files.
 
+Rebuild the final/test submission:
+
+```bash
+python tools/rebuild_n06.py runs/N06_final rebuilt-N06_final.zip
+```
+
+The development submission can also be rebuilt:
+
 ```bash
 python tools/rebuild_n06.py runs/N06_r01 rebuilt-N06_r01.zip
-python tools/rebuild_n06.py runs/N06_final rebuilt-N06_final.zip
 ```
 
 On success, the script prints the verified SHA-256 digest. The rebuilt archive
@@ -111,7 +121,7 @@ The official SimulacraBench repository provides the archive checker and sandbox
 grader. For example:
 
 ```bash
-python public-schemas/tools/check_submission_zip.py artifacts/N06_r01.zip
+python public-schemas/tools/check_submission_zip.py artifacts/N06_final.zip
 ```
 
 The checker verifies archive layout and execution compatibility. It cannot
