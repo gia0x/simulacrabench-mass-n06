@@ -62,6 +62,8 @@ final/test submission used for Codabench submission 1055649 and is the
 implementation described in the technical report. Both archives are preserved
 separately with their exact source files and manifests.
 
+We would like to highlight that the core pipeline for both `N06_r01.zip` and `N06_final.zip` is exactly the same. The latter is just a cleaned up version of the former. 
+
 ## Frozen archive hashes
 
 | Archive | SHA-256 |
